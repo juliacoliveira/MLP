@@ -47,7 +47,7 @@ for x in range (0, len(targets_test)): #Transform all the strings of the list in
 atributes_training_normalized = zscore(atributes_training, axis = 1)
 atributes_test_normalized = zscore(atributes_test, axis = 1)
 
-###### NOT IMPORTANT####### 
+###### NOT IMPORTANT####### #How I 
 #Creating training datasets
 #training_datasets_atributes = dataset_atributes_normalized[:int (0.5*len(dataset_atributes_normalized))]
 #training_datasets_targets = dataset_targets[:int (0.5*len(dataset_atributes_normalized))]
